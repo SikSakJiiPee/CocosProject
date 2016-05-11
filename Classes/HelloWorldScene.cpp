@@ -12,10 +12,10 @@ Scene* HelloWorld::createScene()
     auto scene = Scene::create();
     
     // 'layer' is an autorelease object
-    auto layer = HelloWorld::create();
+    //auto layer = HelloWorld::create();
 
     // add layer as a child to scene
-    scene->addChild(layer);
+    //scene->addChild(layer);
 
     // return the scene
     return scene;
@@ -84,9 +84,9 @@ bool HelloWorld::init()
         return false;
     }
     
-    auto rootNode = CSLoader::createNode("MainScene.csb");
+    //auto rootNode = CSLoader::createNode("MainScene.csb");
 
-    addChild(rootNode);
+    //addChild(rootNode);
 
     return true;
 }
