@@ -10,7 +10,8 @@ Scene* MenuScene::createScene()
 {
 	auto scene = Scene::create();
 
-
+	auto listener = EventListenerKeyboard::create();
+	//listener->onKeyPressed = CC_CALLBACK_2(KeyboardTest::onKeyPressed, this);
 
 	return scene;
 }
@@ -22,7 +23,7 @@ bool MenuScene::init()
 		return false;
 	}
 
-
+	auto mySprite = Sprite::create("bullet_green.png");
 
 	return true;
 }
