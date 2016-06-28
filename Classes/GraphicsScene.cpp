@@ -19,7 +19,9 @@ bool GraphicsScene::init()
 	}
 
 	auto sprite = Sprite::create("decepticon.png");
+	cocos2d::log("decepticon ladattu");
 	auto sprite2 = Sprite::create("autobot.png");
+	cocos2d::log("autobot ladattu");
 	sprite->setAnchorPoint(Vec2(0, 0));
 	sprite2->setAnchorPoint(Vec2(0, 0));
 	

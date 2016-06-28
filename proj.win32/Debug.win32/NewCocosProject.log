@@ -1,8 +1,10 @@
-﻿Build started 13.6.2016 13.07.01.
+﻿Build started 28.6.2016 12.58.12.
      1>Project "C:\Users\Jussi\Desktop\CocosProject\proj.win32\NewCocosProject.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\audio\include" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\external" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\external\chipmunk\include\chipmunk" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\extensions" /I..\Classes /I.. /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\editor-support" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\platform" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\platform\desktop" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\freetype2\include\win32\\" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\GraphicsScene.cpp
-         GraphicsScene.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\audio\include" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\external" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\external\chipmunk\include\chipmunk" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\extensions" /I..\Classes /I.. /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\editor-support" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\platform" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\platform\desktop" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\freetype2\include\win32\\" /I"C:\Cocos\Cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\MouseScene.cpp
+         AppDelegate.cpp
+         MouseScene.cpp
+     1>c:\users\jussi\desktop\cocosproject\classes\mousescene.cpp(33): warning C4101: 'e' : unreferenced local variable
        PreLinkEvent:
          if not exist "C:\Users\Jussi\Desktop\CocosProject\proj.win32\Debug.win32\" mkdir "C:\Users\Jussi\Desktop\CocosProject\proj.win32\Debug.win32\"
          xcopy /Y /Q "C:\Cocos\Cocos2d-x\cocos2d-x-3.10\prebuilt\win32\*.*" "C:\Users\Jussi\Desktop\CocosProject\proj.win32\Debug.win32\"
@@ -15,6 +17,7 @@
          Debug.win32\GraphicsScene.obj
          Debug.win32\HelloWorldScene.obj
          Debug.win32\MenuScene.obj
+         Debug.win32\MouseScene.obj
          Debug.win32\SplashScreen.obj
          Debug.win32\main.obj
          NewCocosProject.vcxproj -> C:\Users\Jussi\Desktop\CocosProject\proj.win32\Debug.win32\NewCocosProject.exe
@@ -28,4 +31,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.16
+Time Elapsed 00:00:04.93

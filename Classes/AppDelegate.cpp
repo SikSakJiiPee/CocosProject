@@ -2,6 +2,7 @@
 #include "HelloWorldScene.h"
 #include "MenuScene.h"
 #include "GraphicsScene.h"
+#include "MouseScene.h"
 
 USING_NS_CC;
 
@@ -26,10 +27,11 @@ bool AppDelegate::applicationDidFinishLaunching() {
     }
 
     // create a scene. it's an autorelease object
-    auto scene = GraphicsScene::createScene();
+    //auto scene = GraphicsScene::createScene();
+	auto scene1 = MouseScene::createScene();
 
     // run
-    director->runWithScene(scene);
+    director->runWithScene(scene1);
 	
     return true;
 }
