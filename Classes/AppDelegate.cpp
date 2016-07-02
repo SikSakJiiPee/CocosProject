@@ -3,6 +3,8 @@
 #include "MenuScene.h"
 #include "GraphicsScene.h"
 #include "MouseScene.h"
+#include "KeyboardScene.h"
+#include "KeyboardScene2.h"
 
 USING_NS_CC;
 
@@ -29,9 +31,11 @@ bool AppDelegate::applicationDidFinishLaunching() {
     // create a scene. it's an autorelease object
     //auto scene = GraphicsScene::createScene();
 	auto scene1 = MouseScene::createScene();
+	auto scene2 = KeyboardScene::createScene();
+	auto scene3 = KeyboardScene2::createScene();
 
     // run
-    director->runWithScene(scene1);
+    director->runWithScene(scene3);
 	
     return true;
 }
