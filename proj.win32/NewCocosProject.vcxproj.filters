@@ -39,6 +39,12 @@
     <ClCompile Include="..\Classes\KeyboardScene2.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorld.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorld2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -66,6 +72,12 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\KeyboardScene2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorld.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorld2.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

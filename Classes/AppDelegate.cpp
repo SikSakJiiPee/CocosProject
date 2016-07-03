@@ -5,6 +5,8 @@
 #include "MouseScene.h"
 #include "KeyboardScene.h"
 #include "KeyboardScene2.h"
+#include "HelloWorld.h"
+#include "HelloWorld2.h"
 
 USING_NS_CC;
 
@@ -33,9 +35,12 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	auto scene1 = MouseScene::createScene();
 	auto scene2 = KeyboardScene::createScene();
 	auto scene3 = KeyboardScene2::createScene();
+	auto scene4 = HelloWorld::createScene();
+	auto scene5 = HelloWorld2::createScene();
+
 
     // run
-    director->runWithScene(scene3);
+    director->runWithScene(scene5);
 	
     return true;
 }

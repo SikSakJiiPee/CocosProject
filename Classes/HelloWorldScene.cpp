@@ -6,11 +6,11 @@ USING_NS_CC;
 
 using namespace cocostudio::timeline;
 
-Scene* HelloWorld::createScene()
+Scene* HelloWorldScene::createScene()
 {
     // 'scene' is an autorelease object
     auto scene = Scene::create();    
-    auto layer = HelloWorld::create();
+	auto layer = HelloWorldScene::create();
 
     // add layer as a child to scene
     scene->addChild(layer);
@@ -20,7 +20,7 @@ Scene* HelloWorld::createScene()
 }
 
 // on "init" you need to initialize your instance
-bool HelloWorld::init()
+bool HelloWorldScene::init()
 {
     if ( !Layer::init() )
     {

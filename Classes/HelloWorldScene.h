@@ -2,7 +2,7 @@
 
 #include "cocos2d.h"
 
-class HelloWorld : public cocos2d::Layer
+class HelloWorldScene : public cocos2d::Layer
 {
 public:
     // there's no 'id' in cpp, so we recommend returning the class instance pointer
@@ -12,6 +12,6 @@ public:
     virtual bool init();
 
     // implement the "static create()" method manually
-    CREATE_FUNC(HelloWorld);
+	CREATE_FUNC(HelloWorldScene);
 };
 
