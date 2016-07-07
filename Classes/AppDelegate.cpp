@@ -7,6 +7,7 @@
 #include "KeyboardScene2.h"
 #include "HelloWorld.h"
 #include "HelloWorld2.h"
+#include "HelloWorld3.h"
 
 USING_NS_CC;
 
@@ -32,15 +33,16 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     // create a scene. it's an autorelease object
     //auto scene = GraphicsScene::createScene();
-	auto scene1 = MouseScene::createScene();
-	auto scene2 = KeyboardScene::createScene();
-	auto scene3 = KeyboardScene2::createScene();
-	auto scene4 = HelloWorld::createScene();
-	auto scene5 = HelloWorld2::createScene();
+	//auto scene1 = MouseScene::createScene();
+	//auto scene2 = KeyboardScene::createScene();
+	//auto scene3 = KeyboardScene2::createScene();
+	//auto scene4 = HelloWorld::createScene();
+	//auto scene5 = HelloWorld2::createScene();
+	auto scene6 = HelloWorld3::createScene();
 
 
     // run
-    director->runWithScene(scene5);
+    director->runWithScene(scene6);
 	
     return true;
 }

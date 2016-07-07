@@ -2,7 +2,7 @@
 
 #include "cocos2d.h"
 
-class HelloWorld2 : public cocos2d::Layer
+class HelloWorld2 : public cocos2d::LayerColor
 {
 public:
 	static cocos2d::Scene* createScene();

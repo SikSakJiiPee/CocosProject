@@ -45,6 +45,7 @@
     <ClCompile Include="..\Classes\HelloWorld2.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorld3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -78,6 +79,9 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\HelloWorld2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorld3.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

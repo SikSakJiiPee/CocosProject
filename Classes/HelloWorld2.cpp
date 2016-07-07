@@ -12,7 +12,7 @@ cocos2d::Scene* HelloWorld2::createScene()
 
 bool HelloWorld2::init()
 {
-	if (!Layer::init())
+	if (!LayerColor::initWithColor(cocos2d::Color4B::BLACK))
 	{
 		return false;
 	}
