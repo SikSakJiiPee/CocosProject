@@ -8,6 +8,8 @@
 #include "HelloWorld.h"
 #include "HelloWorld2.h"
 #include "HelloWorld3.h"
+#include "AudioScene.h"
+#include "AudioScene2.h"
 
 USING_NS_CC;
 
@@ -38,11 +40,13 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	//auto scene3 = KeyboardScene2::createScene();
 	//auto scene4 = HelloWorld::createScene();
 	//auto scene5 = HelloWorld2::createScene();
-	auto scene6 = HelloWorld3::createScene();
+	//auto scene6 = HelloWorld3::createScene();
+	//auto scene7 = AudioScene::createScene();
+	auto scene8 = AudioScene2::createScene();
 
 
     // run
-    director->runWithScene(scene6);
+    director->runWithScene(scene8);
 	
     return true;
 }
@@ -53,6 +57,9 @@ void AppDelegate::applicationDidEnterBackground() {
 
     // if you use SimpleAudioEngine, it must be pause
     // SimpleAudioEngine::getInstance()->pauseBackgroundMusic();
+	auto audio = CocosDenshion::SimpleAudioEngine::getInstance();
+	audio->pauseAllEffects();
+	audio->pauseBackgroundMusic();
 }
 
 // this function will be called when the app is active again
@@ -61,4 +68,7 @@ void AppDelegate::applicationWillEnterForeground() {
 
     // if you use SimpleAudioEngine, it must resume here
     // SimpleAudioEngine::getInstance()->resumeBackgroundMusic();
+	auto audio = CocosDenshion::SimpleAudioEngine::getInstance();
+	audio->resumeAllEffects();
+	audio->resumeBackgroundMusic();
 }
