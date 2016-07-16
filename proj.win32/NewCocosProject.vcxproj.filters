@@ -54,6 +54,9 @@
     <ClCompile Include="..\Classes\AudioScene2.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\TextFieldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -96,6 +99,9 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\AudioScene2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TextFieldScene.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

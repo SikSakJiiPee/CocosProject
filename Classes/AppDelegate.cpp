@@ -10,6 +10,7 @@
 #include "HelloWorld3.h"
 #include "AudioScene.h"
 #include "AudioScene2.h"
+#include "TextFieldScene.h"
 
 USING_NS_CC;
 
@@ -42,11 +43,12 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	//auto scene5 = HelloWorld2::createScene();
 	//auto scene6 = HelloWorld3::createScene();
 	//auto scene7 = AudioScene::createScene();
-	auto scene8 = AudioScene2::createScene();
+	//auto scene8 = AudioScene2::createScene();
+	auto scene9 = TextFieldScene::createScene();
 
 
     // run
-    director->runWithScene(scene8);
+    director->runWithScene(scene9);
 	
     return true;
 }
